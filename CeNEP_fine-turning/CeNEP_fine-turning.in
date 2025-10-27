@@ -1,0 +1,23 @@
+# for prediction
+prediction 1
+
+# fine-tuning
+fine_tune CeNEP_fine-turning.txt CeNEP_fine-turning.restart # Foundation model of CeNEP
+type 8 Ca Si O H Al Fe K Na #Types of chemical elements in the fine-tuning dataset
+
+#hypeparameter
+version    4
+zbl        2
+cutoff     6 5
+n_max      4 4
+basis_size 8 8
+l_max      4 2 1
+neuron     50
+lambda_1   0
+lambda_e   1
+lambda_f   1
+lambda_v   0.1
+batch      5000
+population 50
+generation  1000    #Number of fine-tuning generations
+
