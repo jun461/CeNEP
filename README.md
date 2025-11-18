@@ -1,7 +1,9 @@
 CeNEP
 
 <img width="551" height="297" alt="image" src="https://github.com/user-attachments/assets/934dd45b-e032-41c1-9959-b7211febbffc" />
+
 CeNEP is a general-purpose machine learning interatomic potential (MLIP) developed by Zepeng Fan, Fengzijun Pan, Guangyao Li, Jiaqiu Xu, and collaborators, specifically designed for studies on cementitious materials. The potential covers eight common elements frequently found in cementitious systems, namely Ca, Si, O, H, Al, Fe, K, and Na. CeNEP has been open-sourced in this public repository and is freely available to the research community. Importantly, CeNEP can be directly deployed in GPUMD and LAMMPS, enabling efficient large-scale molecular dynamics simulations. At present, the potential has demonstrated excellent accuracy and stability in fitting density functional theory (DFT) forces and in preliminary applications to representative cementitious systems.
+
 <img width="467" height="368" alt="image" src="https://github.com/user-attachments/assets/70a48f7e-9bfa-4e95-8985-e89b9988500b" />
 
 It is worth emphasizing that CeNEP is built upon the NEP framework proposed by Ke Xu et al. from Zheyong Fan’s group\[1]. Its training strategy was inspired by two large atomic potential models—NEP89 and DPA3—which are capable of describing up to 89 elements and have shown outstanding performance and generalization capabilities\[2,3]. Meanwhile, the DP-CSH potential developed by Weihuan Li from Yang Zhou’s group represents a pioneering contribution in applying MLIPs to the study of cementitious materials\[4,5], offering a new paradigm for molecular simulations in this field. Compared with CeNEP, DP-CSH achieves higher accuracy in modeling the C–S–H system. In addition, the classical reactive force field ReaxFF also plays an important role in simulating cementitious materials, and its applicability and reliability in complex chemical reaction systems have been widely validated\[6].
